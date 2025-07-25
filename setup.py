@@ -10,9 +10,9 @@ setup(
     entry_points={
         'console_scripts': [
             'finish = tools.finish:main',
-            'editor = tools.file_editor:main',
-            'bashrun = tools.execute_bash:main',
-            'searchtool = tools.search:main',
+            'file_editor = tools.file_editor:main',
+            'execute_bash = tools.execute_bash:main',
+            'search = tools.search:main',
         ],
     },
 )
