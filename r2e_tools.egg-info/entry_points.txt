@@ -1,0 +1,5 @@
+[console_scripts]
+bashrun = tools.execute_bash:main
+editor = tools.file_editor:main
+finish = tools.finish:main
+searchtool = tools.search:main
