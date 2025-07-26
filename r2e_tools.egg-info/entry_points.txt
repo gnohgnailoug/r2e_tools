@@ -1,5 +1,0 @@
-[console_scripts]
-execute_bash = tools.execute_bash:main
-file_editor = tools.file_editor:main
-finish = tools.finish:main
-search = tools.search:main
