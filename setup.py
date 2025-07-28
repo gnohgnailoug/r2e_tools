@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 setup(
     name="r2e-tools",
     version="0.1.0",
-    packages=find_packages(),
+    packages=["tools"],
     install_requires=[
-        "chardet",  # 只有 file_editor 用到了这个
+        "chardet",  
     ],
     entry_points={
         'console_scripts': [
